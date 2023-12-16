@@ -1,0 +1,58 @@
+/* index.css */
+
+.home-bg-container {
+    padding: 20px;
+  }
+  
+  .input-btn-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .input-user {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-btn {
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .book-card-container,
+  .author-card-container {
+    margin-top: 20px;
+  }
+  
+  .unorder-list-container {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Add styling for BookCard and AuthorCard components if needed */
+  
+  /* Styling for Loader */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .TailSpin {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #3498db;
+    border-radius: 50%;
+    border-top: 4px solid #ecf0f1;
+    animation: rotate 1s linear infinite;
+  }
+  
